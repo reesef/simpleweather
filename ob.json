@@ -1,0 +1,75 @@
+{
+  "success":true,
+  "error":null,
+  "response":{
+    "id":"KSFO",
+    "loc":{
+      "long":-122.36666666667,
+      "lat":37.616666666667
+    },
+    "place":{
+      "name":"san francisco international  airport",
+      "state":"ca",
+      "country":"us"
+    },
+    "profile":{
+      "tz":"America\/Los_Angeles"
+    },
+    "obTimestamp":1376538960,
+    "obDateTime":"2013-08-14T20:56:00-07:00",
+    "ob":{
+      "timestamp":1376538960,
+      "dateTimeISO":"2013-08-14T20:56:00-07:00",
+      "tempC":18,
+      "tempF":64,
+      "dewpointC":14,
+      "dewpointF":57,
+      "humidity":78,
+      "pressureMB":1014,
+      "pressureIN":29.94,
+      "windKTS":10,
+      "windKPH":19,
+      "windMPH":12,
+      "windSpeedKTS":10,
+      "windSpeedKPH":19,
+      "windSpeedMPH":12,
+      "windDirDEG":300,
+      "windDir":"WNW",
+      "windGustKTS":null,
+      "windGustKPH":null,
+      "windGustMPH":null,
+      "flightRule":"MVFR",
+      "visibilityKM":16.09344,
+      "visibilityMI":10,
+      "weather":"Mostly Cloudy with Nearby Fog",
+      "weatherShort":"Nearby Fog",
+      "weatherCoded":"VC::F,::BK",
+      "weatherPrimary":"Nearby Fog",
+      "weatherPrimaryCoded":"VC::F",
+      "cloudsCoded":"BK",
+      "icon":"mcloudyrn.png",
+      "heatindexC":18,
+      "heatindexF":64,
+      "windchillC":18,
+      "windchillF":64,
+      "feelslikeC":18,
+      "feelslikeF":64,
+      "isDay":false,
+      "sunrise":1376486732,
+      "sunriseISO":"2013-08-14T06:25:32-07:00",
+      "sunset":1376535734,
+      "sunsetISO":"2013-08-14T20:02:14-07:00",
+      "snowDepthCM":null,
+      "snowDepthIN":null
+    },
+    "raw":"KSFO 150356Z 30010KT 10SM VCFG SCT005 BKN010 BKN012 18\/14 A2994",
+    "relativeTo":{
+      "lat":37.77493,
+      "long":-122.41942,
+      "distanceKM":18.2,
+      "distanceMI":11.309,
+      "bearing":"SSE",
+      "bearingDEG":165
+    }
+  }
+}
