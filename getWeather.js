@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 	   // Get the 7 day forecast   
       $.ajax({
-      url: 'http://api.aerisapi.com/forecasts/' + zip + '   ?client_id=LI7gJnbLEdzpjWXZzBaMP&client_secret=4wgCjhk2sd0AC0YPbzsnp94X1HaY0EdSocIfwSEw',
+         url: 'http://api.aerisapi.com/forecasts/' + zip + ' ?client_id=LI7gJnbLEdzpjWXZzBaMP&client_secret=4wgCjhk2sd0AC0YPbzsnp94X1HaY0EdSocIfwSEw',
          dataType: "jsonp",
          success: function(json) {
             
