@@ -3,14 +3,16 @@
 <head>
    <title>Simple Weather</title>
    <link rel="stylesheet" type="text/css" href="index.css">
-   <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+   <script type="text/javascript" src="jquery.min.js"></script>
 </head>
 <body>
-   <section class="curent-weather">
-      <div id="temp"></div>
-      <div id="conditions"></div>
-   </section>
-   <section id="forecast"></section>
+	<section class="main">
+   		<div class="current-weather">
+      		<h1 id="temp"></h1>
+      		<h2 id="conditions"></h2>
+   		</div>
+   		<div id="forecast"></div>
+	</section>
 <script type="text/javascript" src="getWeather.js"></script>
 </body>
 </html>
