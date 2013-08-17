@@ -16,7 +16,7 @@ $(document).ready(function() {
                
             var currentWeather = json.response.ob;
                
-            $('#temp').html(currentWeather.tempF + 'º');
+            $('#temp').html(currentWeather.tempF + '\u00B0');
                
             $('#conditions').html(currentWeather.weather.toLowerCase());
                
@@ -40,7 +40,7 @@ $(document).ready(function() {
                
                for (i=0; i < fc[0].periods.length; i++) {
                   
-                  $('#forecast').append('<div class=day' + '-' + i + '>' + '<span>' + fc[0].periods[i].avgTempF + 'º' + '</span>' + '</div>');
+                  $('#forecast').append('<div class=day' + '-' + i + '>' + '<span>' + fc[0].periods[i].avgTempF + '\u00B0' + '</span>' + '</div>');
                
                }
 
