@@ -40,7 +40,7 @@ $(document).ready(function() {
                
                for (i=0; i < fc[0].periods.length; i++) {
                   
-                  $('#forecast').append('<div class=day' + '-' + i + '>' + '<span>' + fc[0].periods[i].avgTempF + '\u00B0' + '</span>' + '</div>');
+                  $('#forecast').append('<div class=day' + '>' + '<span>' + fc[0].periods[i].avgTempF + '\u00B0' + '</span>' + '</div>');
                
                }
 
