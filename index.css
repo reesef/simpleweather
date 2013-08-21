@@ -336,22 +336,32 @@ table {
   box-sizing: border-box; }
 
 html {
-  background-color: #89E8FF;
+  background-color: #D1F2FF;
   color: #222; }
 
 .main {
   margin: 0px auto 0px auto;
-  width: 768px; }
+  width: 100%; }
 
-.curent-weather {
-  width: 240px;
-  background-color: #f6f6f6;
+.current-weather {
+  width: 350px;
   margin: 0px auto 0px auto; }
 
+#temp, #conditions {
+  text-align: center; }
+
+.forecast {
+  width: 350px;
+  margin: 0px auto; }
+
+.tomorrow {
+  display: block; }
+
 .day {
-  float: left;
-  width: 3em;
-  padding: .5em .5em .5em 0em; }
+  display: inline-block;
+  width: 50px;
+  padding: 5px 5px;
+  text-align: center; }
 
 .sunny {
   background-color: blue; }
