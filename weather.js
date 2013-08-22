@@ -1,11 +1,5 @@
 $(document).ready(function() {
 
-   // Set the default zip to SF
-   var defaultZip = 94110;
-   
-   // Set the zip to default
-   var zip = defaultZip;
-
    // Get the current conditions
    $.ajax({
       url: 'http://api.aerisapi.com/observations/' + zip + '   ?client_id=LI7gJnbLEdzpjWXZzBaMP&client_secret=4wgCjhk2sd0AC0YPbzsnp94X1HaY0EdSocIfwSEw',
